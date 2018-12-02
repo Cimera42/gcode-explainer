@@ -7,8 +7,7 @@ const Header = (props) => {
 		<header styleName="container">
 			<Link to="/" styleName="heading">Heading</Link>
 			<div styleName="links">
-				<Link to="songs">Song List</Link>
-				<Link to="new">Add New</Link>
+				<Link to="/">GCode Explainer</Link>
 			</div>
 			<div styleName="profile">
 				<Link to="/profile" styleName="profile-details">Tim</Link>
