@@ -139,8 +139,21 @@ class GcodeEntry extends React.Component {
 				<div styleName="inner-container">
 					<div styleName="styled-container">
 						G-code command source:
-						<a href="https://reprap.org/wiki/G-code">
+						<a
+							href="https://reprap.org/wiki/G-code"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							https://reprap.org/wiki/G-code
+						</a>
+						<br/>
+						Created by:
+						<a
+							href="https://github.com/Cimera42"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Tim Porritt
 						</a>
 					</div>
 				</div>
