@@ -24,12 +24,25 @@
 }
 
 .links {
+	flex-grow: 1;
 	text-align: center;
 	font-size: 1.2em;
 
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.icon-logo {
+	height: 1em;
+	margin-right: 10px;
+}
+
+.vertical-center {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .profile {
