@@ -1,0 +1,26 @@
+$text: #ddd;
+$offwhite: #fafafa;
+$lightmid: #aaa;
+$darkmid: #666;
+$dark: #333;
+$primary: #7013bd;
+$secondary: #6dcc13;
+$trimary: #ff8d02;
+
+* {
+	color: $text;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: $dark;
+
+	//Don't put on body, otherwise the
+	//change to 0 margin is animated
+	* {
+		transition: all 0.25s;
+	}
+}
