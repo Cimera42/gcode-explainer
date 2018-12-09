@@ -1,12 +1,11 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import "./Header.scss";
 import githubLogo from './GitHub-Mark-Light-120px-plus.png';
 
 const Header = (props) => {
 	return (
 		<header styleName="container">
-			<Link to="/" styleName="heading">G-code Explainer</Link>
+			<a href="/" styleName="heading">G-code Explainer</a>
 			<div styleName="links">
 				<a
 					href="https://github.com/Cimera42/gcode-explainer"

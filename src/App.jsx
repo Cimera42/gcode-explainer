@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.scss";
 import Header from "./Parts/Header/Header";
 import GcodeEntry from "./Parts/GcodeEntry/GcodeEntry";
-import {Route} from "react-router-dom";
 
 class App extends Component
 {
@@ -11,7 +10,7 @@ class App extends Component
 		return (
 			<div>
 				<Header/>
-				<Route exact path="/" component={GcodeEntry}/>
+				<GcodeEntry />
 			</div>
 		);
 	}
