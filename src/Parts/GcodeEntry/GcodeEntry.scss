@@ -43,7 +43,7 @@
 		border: 2px solid $secondary;
 		min-height: 10em;
 		resize: none;
-		overflow: hidden;
+		white-space: pre;
 
 		&:focus {
 			border: 2px solid $primary;
