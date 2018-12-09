@@ -5,13 +5,9 @@ import "./Header.scss";
 const Header = (props) => {
 	return (
 		<header styleName="container">
-			<Link to="/" styleName="heading">Heading</Link>
+			<Link to="/" styleName="heading">G-code Explainer</Link>
 			<div styleName="links">
-				<Link to="/">GCode Explainer</Link>
-			</div>
-			<div styleName="profile">
-				<Link to="/profile" styleName="profile-details">Tim</Link>
-				<Link to="/profile" styleName="profile-picture"></Link>
+				<Link to="/">G-code Explainer</Link>
 			</div>
 		</header>
 	);

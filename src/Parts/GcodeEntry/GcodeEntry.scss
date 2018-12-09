@@ -3,7 +3,7 @@
 .container {
 	padding: 10px 20px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 
 	* {
 		color: $dark;
@@ -15,6 +15,11 @@
 		width: 100%;
 		color: $darkmid;
 	}
+}
+
+.inner-container {
+	display: flex;
+	flex-direction: row;
 }
 
 .styled-container {
@@ -33,7 +38,7 @@
 	}
 
 	label {
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 
 	textarea {
