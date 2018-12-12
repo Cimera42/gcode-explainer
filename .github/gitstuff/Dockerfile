@@ -2,7 +2,7 @@ FROM alpine/git
 
 LABEL "com.github.actions.name"="Git stuff"
 LABEL "com.github.actions.description"="Commit all and push"
-LABEL "com.github.actions.icon"="github"
+LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="blue"
 
 LABEL "repository"="http://github.com/octocat/hello-world"
