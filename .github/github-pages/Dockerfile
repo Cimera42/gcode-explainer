@@ -1,7 +1,7 @@
 FROM alpine/git
 
-LABEL "com.github.actions.name"="Git stuff"
-LABEL "com.github.actions.description"="Commit all and push"
+LABEL "com.github.actions.name"="GitHub pages"
+LABEL "com.github.actions.description"="Extract docs into main directory and push to gh-pages branch."
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="blue"
 
