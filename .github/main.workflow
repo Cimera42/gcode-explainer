@@ -1,6 +1,6 @@
 workflow "Build and push" {
   on = "push"
-  resolves = ["Github pages", "Github clone"]
+  resolves = ["Github pages"]
 }
 
 action "Node stuff" {
@@ -15,6 +15,6 @@ action "Github clone" {
 
 action "Github pages" {
   uses = "./.github/github-pages"
-  needs = ["Node stuff"]
+  needs = ["Github clone"]
   secrets = ["GITHUB_TOKEN"]
 }
