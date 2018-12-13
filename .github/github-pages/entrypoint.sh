@@ -1,7 +1,7 @@
 #!/bin/sh
 
-git config user.name "GitHub Actions"
-git config user.email "cimera2@gmail.com"
+git config user.name "Tim Porritt - GitHub Actions"
+git config user.email "tim.m.porritt@gmail.com"
 
 git checkout -b gh-pages
 git rm -r ./.github
