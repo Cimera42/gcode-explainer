@@ -1,6 +1,7 @@
 # G-code Explainer
 
-Website: https://cimera42.github.io/gcode-explainer/
+Website: https://cimera42.github.io/gcode-explainer/ \
+*Built using GitHub actions*
 
 Simple explanations for G-code commands.
 
