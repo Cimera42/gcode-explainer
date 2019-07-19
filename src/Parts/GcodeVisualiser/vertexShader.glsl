@@ -9,7 +9,7 @@ uniform mat4 uPMatrix;
 
 void main(void)
 {
-    gl_Position = vec4(aVertexPosition, 1.0);
+    gl_Position = uPMatrix * uVMatrix * uMMatrix * vec4(aVertexPosition, 1.0);
 
     vVertColour = aVertexColour;
 }
