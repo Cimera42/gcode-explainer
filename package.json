@@ -1,6 +1,6 @@
 {
 	"name": "gcode_explainer",
-	"homepage" : "https://cimera42.github.io/gcode-explainer/",
+	"homepage": "https://cimera42.github.io/gcode-explainer/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
